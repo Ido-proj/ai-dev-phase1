@@ -11,26 +11,27 @@ Why:
 Almost every modern AI application (including agents) relies on pretrained models — Hugging Face is the hub.
 
 What to Learn:
-  1. Hugging Face Basics
-    - Install and set up account (pip install transformers datasets huggingface_hub)
-    - Explore Hugging Face Model Hub — find a model for NLP, CV, and embeddings.
-    - Transformers Fundamentals
+1. Hugging Face Basics
+  - Install and set up account (pip install transformers datasets huggingface_hub)
+  - Explore Hugging Face Model Hub — find a model for NLP, CV, and embeddings.
+  - Transformers Fundamentals
   
-  2. Tokenization (AutoTokenizer)
-    - Model loading (AutoModel, AutoModelForSequenceClassification)
-    - Inference pipelines (pipeline() for text generation, classification, embeddings)
+2. Tokenization (AutoTokenizer)
+  - Model loading (AutoModel, AutoModelForSequenceClassification)
+  - Inference pipelines (pipeline() for text generation, classification, embeddings)
   
-  3. Practical Mini-Projects
-    - Sentiment analysis API (Flask + Hugging Face model)
-    - Embedding generator + FAISS search
+Practical Mini-Projects
+  - Sentiment analysis API (Flask + Hugging Face model)
+  - Embedding generator + FAISS search
   
-  📚 Resources:
-      -Hugging Face course (free)
-      -Docs: transformers library
+
+📚 Resources:
+  - Hugging Face course (free)
+  - Docs: transformers library
       
 --------------------------------------------------------------------------------------------------
 
-Week 3: LangChain Fundamentals
+**Week 3: LangChain Fundamentals**
 
 Why:
 This is the glue for chaining LLM reasoning, memory, and tools — core for agents.
@@ -53,7 +54,8 @@ What to Learn:
   - LangChain YouTube crash course by Sam Witteveen
 
 --------------------------------------------------------------------------------------------------
-Week 4: LlamaIndex (Optional but Powerful)
+**Week 4: LlamaIndex (Optional but Powerful)**
+
 Why:
 If LangChain is a Swiss Army knife, LlamaIndex is the librarian — it organizes and retrieves data for LLMs.
 
@@ -76,7 +78,7 @@ Mini-Project
 
 --------------------------------------------------------------------------------------------------
 
-Week 5: Vector Databases
+**Week 5: Vector Databases**
 
 Why:
 Agents need memory and retrieval — vector DBs store embeddings for that.
@@ -99,7 +101,7 @@ Build a semantic search API for research papers
   - Pinecone learn
 --------------------------------------------------------------------------------------------------
 
-Week 6: Putting It All Together
+**Week 6: Putting It All Together**
 
 Why: 
 Build a full pipeline to glue the tools together.
@@ -119,11 +121,8 @@ Flow:
   4. Agent answers with cited sources
 --------------------------------------------------------------------------------------------------
 
-Extra Tools to Explore Later
-Weights & Biases — experiment tracking for AI projects
-
-Gradio / Streamlit — rapid UI for AI apps
-
-Docker — containerize your agents
-
-OpenTelemetry — observability for multi-step agents
+**Extra Tools to Explore Later**
+  1. Weights & Biases — experiment tracking for AI projects
+  2. Gradio / Streamlit — rapid UI for AI apps
+  3. Docker — containerize your agents
+  4. OpenTelemetry — observability for multi-step agents
